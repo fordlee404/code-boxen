@@ -58,5 +58,11 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+# add new modules
+github "java",        "1.8.2"
+github "vagrant",     "3.3.0"
+github "iterm2",      "1.2.4"
+github "sourcetree",  "1.0.0"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

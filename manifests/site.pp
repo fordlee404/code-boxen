@@ -89,3 +89,17 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+# install java
+include java
+
+# install vagrant
+class {
+  'vagrant': 
+}
+
+# install iterm2
+include iterm2::stable
+
+# install sourcetree
+include sourcetree
