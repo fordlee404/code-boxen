@@ -103,3 +103,6 @@ include iterm2::stable
 
 # install sourcetree
 include sourcetree
+
+# install virtualbox
+include virtualbox
